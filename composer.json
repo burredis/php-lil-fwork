@@ -1,6 +1,7 @@
 {
-	"name": "burredis-php-lil-fwork",
-    "license": "proprietary",
+	"name": "burredis/phplilfwork",
+    "description": "A little framework for PHP",
+    "license": "MIT",
     "authors": [
         {
             "name": "Bruno C. Dias",
