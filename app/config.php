@@ -6,7 +6,7 @@ if (!empty(getenv('SYSTEM_ENV')))
     $config = require __DIR__.'/config/' . getenv('SYSTEM_ENV') . '.php';
 
 return array_replace_recursive([
-    'env' => !empty(getenv('SYSTEM_ENV')) ? getenv('SYSTEM_ENV') : 'local',
+    'env' => !empty(getenv('SYSTEM_ENV')) ? getenv('SYSTEM_ENV') : '',
     'app' => [
         'name' => 'lil-fwork'
     ],
