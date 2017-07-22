@@ -1,0 +1,21 @@
+{
+	"name": "burredis/php/lil-fwork",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Bruno C. Dias",
+            "email": "xbcdias@bur-redis.com.br",
+            "homepage": "http://www.bur-redis.com.br",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.9",
+        "monolog/monolog": "^1.22"
+    }
+}
