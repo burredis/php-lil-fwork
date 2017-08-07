@@ -10,6 +10,11 @@ return array_replace_recursive([
     'app' => [
         'name' => 'lil-fwork'
     ],
+    'logger' => [
+        'name' => 'app',
+        'level' => \Monolog\Logger::DEBUG,
+        'path' => __DIR__ . '/logs/app.log',
+    ],
     'db' => [
         'driver' => 'mysql',
         'host' => 'localhost',
